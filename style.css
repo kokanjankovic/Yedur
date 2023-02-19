@@ -125,7 +125,9 @@
     background-attachment: fixed;
   }
   
-  /* Our Products */
+  #products{
+    margin: 3rem 0;
+  }
   .short-line{
     height: 2px;
     width : 50px;
@@ -135,4 +137,25 @@
     border: none !important;
     box-shadow: 4px 4px 12px -3px rgba(162, 95, 75, 0.3);
   }
+  .card-img-top{
+    width: 80%;
+    height: auto;
+  }
   
+  /* Footer */
+  footer{
+    /* height: 30vh; */
+    background-image: linear-gradient(to bottom, #ed0000,#000);
+  }
+  .footer-col{
+    padding: 10px 40px;
+    color: #fff;
+    font-size: 12px;
+  }
+  .footer-img{
+    width: 150px;
+    margin-left: 50px;
+  }
+  .menu{
+    color: #fff;
+  }
