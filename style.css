@@ -16,7 +16,9 @@
   p{
     font-family: 'Montserrat', sans-serif;
   }
-
+.container{
+  max-width: 992px;
+}
   nav{
     position: fixed;
     z-index: 101;
@@ -73,6 +75,64 @@
     text-align: center;
     
   }
-   
-    
+  .btn{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+  }
+
+
+  /* About secgion */
+  #about{
+    margin: 40px 0;
+  }
+  .story{
+    color: #000;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .story-text{
+    padding: 10px 40px;
+  }
+  .dugme a{
+    text-decoration: none;
+    color: #a25f4b;    
+  }
+  .dugme .line, .dugme a{   
+    transition: all 0.5s;
+  }
+  .dugme:hover .read{
+    color: #3b261f;
+  }
+  .line{
+    width: 100px;
+    height: 2px;
+    background-color: rgba(162, 95, 75, 0.3);
+    margin-bottom: 20px;
+  }
+  .dugme:hover .line{
+    background-color: rgba(162, 95, 75, 0.8);
+  }
+
+  /* Parallax */
+  .parallax{
+    height: 340px;
+    margin-bottom: 100px;
+    background-image: url(/img/UNADJUSTEDNONRAW_thumb_33ea.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  /* Our Products */
+  .short-line{
+    height: 2px;
+    width : 50px;
+    background-color: rgba(162, 95, 75,0.4);
+  }
+  .card{
+    border: none !important;
+    box-shadow: 4px 4px 12px -3px rgba(162, 95, 75, 0.3);
+  }
   
