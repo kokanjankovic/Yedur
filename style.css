@@ -1,0 +1,78 @@
+:root{    
+    
+    --orange-dark:#d85c27;
+    --red-light:#ed0000;
+    --white:#fff;
+    --gradient: rgba(#ed0000, #000000, 0.8);    
+  }
+
+  h1, h3{
+    font-family: 'DM Serif Text', serif;
+  }
+  h1{
+    font-size: 4rem;
+    color: var(--white);
+  }
+  p{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  nav{
+    position: fixed;
+    z-index: 101;
+  }
+
+  .navbar-brand img{
+    height: 80px;
+    background-color: var(--red-light) !important;
+  }
+
+  .nav-link, .material-symbols-outlined{
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: var(--red-light) !important;
+  }
+   
+  .btn-outline{
+    border-color: var(--red-light);
+  }
+
+  .dropdown-menu{    
+    background: var(--red-light);
+  }
+
+  /* Hero section ------------------------------ */
+  #hero{   
+    position: relative;         
+    background-image:linear-gradient(to bottom, #ed0000,#000);      
+    }
+  .img-hero img{
+    overflow: hidden;
+    display: inline-block;
+    max-width: 100%;
+    /* background-size: cover; */
+  }
+  .text-hero-content{
+    justify-content: space-between;    
+    align-items: center;
+  }
+  .description{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(185, 185, 185);
+    text-align: center;
+    font-weight: 600;
+  }
+  .text-hero h1{
+    text-align: center;
+  }
+  .text-hero p{
+    color: var(--white);
+    text-align: center;
+    
+  }
+   
+    
+  
